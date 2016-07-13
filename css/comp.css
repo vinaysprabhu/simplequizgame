@@ -1,0 +1,184 @@
+/* Styling used in upload.php */
+.addimg{
+	color:#9C6;
+	font-size:24pt;
+	border:4px dashed #9C3;
+	cursor:pointer;
+	padding:27px 30px;
+	margin:0px 5px;	
+}
+.addimg:empty{
+	width:auto;	
+}
+.addimg:hover{
+	border:4px dashed #990;	
+}
+
+
+
+
+
+
+/* Styling used in Main calling file */
+#my1stModal .modal-dialog{
+	width:60%;
+}
+
+#editdivspan, #editspan{
+	width:100%;
+	position:absolute;
+	margin-top:0px;
+	margin-left:0px;
+	min-height:5px;
+}
+
+#editdivspan:hover,#editspan:hover{
+	display:block;	
+}
+
+
+#editdivspan:hover{
+	padding:5px;
+	min-height:22px;
+	background-color:#ccc;
+	opacity:0.4;
+	z-index:500;
+}
+
+
+#editspan{
+	width:auto;
+	right:0px;
+	font-size:8pt;
+	display:none;
+	cursor:pointer;	
+}
+
+#editspan .glyphicon-pencil{
+	color:#F90;
+}
+
+#editspan .glyphicon-trash{
+	margin-left:5px;
+	color:#f00;
+}
+
+.remove{
+	width:auto;
+	padding:5px;
+	background-color:#fff;	
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+
+.remove .glyphicon-remove{ color:red; }
+
+.popuptabs{
+	padding:10px 20px 10px;
+	position:relative;
+	cursor:pointer;
+}
+
+.activetab{
+	border:1px solid #dddddd;
+	border-bottom:1px solid #fff;
+	background-color:#fff;
+	z-index:500;	
+}
+
+#browsefiles{
+	margin-left:10px;	
+}
+
+#my2ndModal  .modal-dialog{
+	width:80%;
+}
+
+.display2ndWin{
+	border:0px solid red;position:relative;width:100%;min-height:300px;margin-top:30px;	
+}
+
+.imgContainer{
+	overflow-y:scroll;width:100%;min-height:700px;position:relative;padding:10px 0px;border:1px solid #ccc;	
+}
+
+.imgdiv{
+	border:1px solid #ccc;position:relative;	
+}
+
+.imgdiv img{
+	cursor:pointer;	
+}
+
+.imggal{
+	list-style:none;position:absolute;width:100%;padding:0px;
+}
+
+.imggal li{
+	border:3px solid #fff;	
+}
+.imggal li.current, .current{
+	border:3px solid #0074A2;
+}
+
+.imggal li.selected{
+	float:left;list-style: none outside none;padding:10px;position:relative;text-align:center;width:140px;	
+}
+
+.selectordiv{
+	position:absolute;top:-5px;right:-5px;width:auto;border:1px solid #ccc;background-color:#999;padding:5px;cursor:pointer;
+}
+
+#imgDetails td.tdlabel{
+	text-align:right;
+	width:70px;
+	font-weight:bold;
+}
+
+.deletePermanently{
+	color:red;cursor:pointer;
+}
+
+.displayImg{
+	float:left;width:auto;border:1px solid #ccc;
+}
+
+.displayImgDetails{
+	float:left;width:auto;margin-left:10px;	
+}
+
+.imgname{
+	color:#0074A2;
+}
+
+.imgViewer{
+	position:relative;
+	width:100%;
+	padding:10px;	
+}
+
+#uploadedImgs, #modaluploadedImgs{
+	position:relative;
+	width:100%;
+	list-style:none;
+	padding:0px;
+	border:0px solid red;	
+}
+
+#uploadedImgs li, #modaluploadedImgs li{
+	float:left;
+	padding:5px;
+	margin:0px 5px 10px;
+	width:100px;
+	position:relative;
+	list-style:none outside none;
+	text-align:center;
+	cursor:move;	
+	border:1px solid #0074A2;
+}
+
+#uploadedImgs li{
+	cursor:none;	
+}

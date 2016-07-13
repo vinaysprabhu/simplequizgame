@@ -1,0 +1,32 @@
+div.btn-group {
+    width: 60%;
+}
+
+.caret {
+    margin-right: 4px;
+}
+.multiselect {
+    text-align: left;
+}
+
+.multiselect b.caret {
+    right: 4px;
+	margin-top:5px;
+    position: absolute;
+}
+
+.multiselect-container input
+{
+    display: none
+}
+
+.multiselect-container label
+{
+    text-align:left;
+}
+
+.form-control
+{
+	width:60%;
+	font-size:13px;	
+}

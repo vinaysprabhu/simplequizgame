@@ -1,0 +1,78 @@
+.tbl{
+	width:80%;
+	font-size:13px;
+	color:#666;	
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top:none;
+}
+
+.label1
+{
+  text-align:right;
+  vertical-align:middle; 
+  width:30%;
+  font-size: 14px;
+  color:#666;
+}
+
+.lookupclass
+{
+	font-size:13px;
+	color:#666;
+	background-color:#ebebeb;
+	background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);
+	border:1px solid #d3d3d3;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	padding:5px 12px;
+	cursor:pointer;
+	font-weight:500;	
+}
+
+.lookupclass:hover
+{
+	font-size:13px;
+	color:#303030;
+	text-decoration:none;	
+}
+
+.table-bordered {
+    border-radius: 5px;
+    margin-bottom: 6px;
+    outline: 1px solid #d0d0d0;
+	margin-top:10px;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th {
+    background-color: #e8e8e8;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #e8e8e8 100%);
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
+{
+	border:1px solid #ddd;	
+}
+
+.compulsory:before { 
+	content: "*";
+	color:red;
+	width:1em;
+	font-size:5pt;
+	padding:0px 5px;
+	font-family: 'Glyphicons Halflings';
+	line-height: 1; 
+	position: relative;
+	top:-2px; 
+}
+
+.colon:after {
+	content:":";
+	padding-left:3px;
+}
